@@ -136,6 +136,32 @@ color: white
 }
 
 
+
+/* 小型設備 */
+@media screen and (max-width: 600px) {
+  .content-div {
+    margin: 0 10px;
+    margin-top: 10px;
+  }
+}
+
+/* 中型設備 */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .content-div {
+    margin: 0 50px;
+    margin-top: 15px;
+  }
+}
+
+/* 大型設備*/
+@media screen and (min-width: 1025px) {
+  .content-div {
+    margin: 0 150px;
+    margin-top: 20px;
+  }
+}
+
+
 .content-title {
   background-color: transparent !important; 
   color: #343a40 !important; 

@@ -43,10 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Check spot on page load
+
     checkSpot();
 
-    // Check spot on scroll
     window.addEventListener('scroll', checkSpot);
 });
 
